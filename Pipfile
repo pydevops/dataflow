@@ -7,7 +7,7 @@ name = "pypi"
 apache-beam = {extras = ["gcp"], version = "*"}
 
 [dev-packages]
-pylint = "*"
+pylint = "<2.0.0"
 
 [requires]
 python_version = "2.7"
