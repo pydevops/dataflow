@@ -29,6 +29,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=<svc>.json
 * The DataflowRunner submits the pipeline to the Google Cloud Dataflow.
 
 ## run dataflow
+`DataflowRunner` is used
 ```
 $./run_dataflow.sh
 ```
