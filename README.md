@@ -1,29 +1,57 @@
-
 ## install dependencies if needed
+[Quickstart python for dataflow](https://cloud.google.com/dataflow/docs/quickstarts/quickstart-python) 
+
+```
+pip install -r requirements.txt
+```
+
+Or if you prefer **pipenv**
+
 ```
 pipenv --two shell
 pipenv install apache-beam[gcp]
 ``` 
 
 ## set up GOOGLE_APPLICATION_CREDENTIALS
+Please generate a json key for the service account if needed. 
 ```
 export GOOGLE_APPLICATION_CREDENTIALS=<svc>.json
 ```
 
-## set up cloud pubsub
+## configure and set up cloud pubsub
 ```
 ./setup_pubsub.sh
 ```
+
+## dataflow runners
+
+* The DirectRunner is used for development. 
+* The DataflowRunner submits the pipeline to the Google Cloud Dataflow.
 
 ## run dataflow
 ```
 $./run_dataflow.sh
 ```
 
-## when upload is larger
-than 500m
-here is the error, beams storage is broken
+## testing a file upload
+with size desired
+```
+INPUT_BUCKET=pso-victory-dev-8f039964-e2bb-11e8-b17e-1700de069414
+(OSX) mkfile -n 100m 100m
+gsutil cp 100m gs://${INPUT_BUCKET}
 
+(OSX) mkfile -n 1g 1g
+gsutil -o GSUtil:parallel_composite_upload_threshold=200M cp 1g gs://${INPUT_BUCKET}
+```
+
+## flush the pubsub for testing
+```
+INPUT_SUB="input-sub"
+gcloud pubsub subscriptions pull --auto-ack ${INPUT_SUB} --limit 100
+```
+and wait a
+## issue
+When upload size is larger than 500m, beams GCS storage is broken.
 ```
     self.do_fn_invoker.invoke_process(windowed_value)
   File "apache_beam/runners/common.py", line 414, in apache_beam.runners.common.SimpleInvoker.invoke_process

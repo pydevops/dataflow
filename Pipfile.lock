@@ -87,24 +87,24 @@
         },
         "fastavro": {
             "hashes": [
-                "sha256:085ae538838d2d7aec0bf331956724ba42e27d4a664b4a019d8c2f629a10ca1e",
-                "sha256:1c236ac44c779126cb46803b18d6c6b82850a8447355bbcbaaf0f6e322218c91",
-                "sha256:1fe6e4a4021c07134e7e86eed48f8ea0b217116cea325de3665b8c95bcda4246",
-                "sha256:3a2f293fa5b325f03a093b5514791d11beca3af3cc64dfeb3391a03f06a7563b",
-                "sha256:6e48ae15fc5c2752bc84e08315c059541a53ec370a74a2b309cab3059c6af86c",
-                "sha256:77d1a92916d32805e98e90e0bd8c1c182f472201bb6083c6f8063dad522789df",
-                "sha256:84807a06830ae2af736afb122f243afb36e414855f0b0e3014973446e0433473",
-                "sha256:876d1f20558336dd0f8988ea4b2a49fc8c39988b3e2e4d7ae92db0f2610c1bbf",
-                "sha256:a38405de9acb9f45bd3647f1fb2049bd613815a1d387ca34c2c2cfabbccea5f9",
-                "sha256:a3bd403a9085f9d59cdff6c5359d3b8aa30b50754fa695a7b6f20ec220646bb5",
-                "sha256:b3dc4e7f49bf55e1da1b77f5d0fa3ea4c38ef0599db411624eb8d96a2799a239",
-                "sha256:b71dd275e0bc959de91e27d90ffd999a4e8509066851dcb376d373b4f4cecc8a",
-                "sha256:c366c36cdb89bf09e4bf7ea53ca16f21a06eaf49f75bf1d75f1f2d964e4cee4c",
-                "sha256:cb98874363ddeaae860edf4270e52501704927956c04a7ed7a2978c99f1a6dd5",
-                "sha256:e355b25846e75ffded0c60c7f04bd082e6bb0fd83b33a7745248ff7205e30130",
-                "sha256:e52475a3f3446bb6fdf44291fe32b2a4491be22c53cc846e56c0764cab013932"
+                "sha256:0219892e34d821cbad8bc5d119484c832dfbd649a7374db95d42bda58f727f7e",
+                "sha256:0567ffb19bb79947d61d5f42e541757421f2fe4458a5752ca8ef68693423c6d0",
+                "sha256:2ed5408fd086fd76b13dc763c4dad73d3ae219319ef662432ff9080cad05bc35",
+                "sha256:42fa4a142b7d3de6465a0fc71b689b4fa764ae88b644939474270fad44ca7229",
+                "sha256:557f8e8f3f40798717500f794bc5ca1d199fef10be39606458195fee6d3a29b3",
+                "sha256:5b1731db21b63113d78419fdbfabac7895323fa529a9e3c291c139559106f630",
+                "sha256:5b9548214bb6cea837d19b77c32f2783bb571889109b082044353c83805d201e",
+                "sha256:6788740d23bc1d12223bcceeb84c8c35b233abcba0843a33f70f0fceafd9a98f",
+                "sha256:93da94ae3cbb67350586afd203382f859498a9801c9f6e7050c3f46e205404f1",
+                "sha256:acb3a7a0a1e6e1b0ff412ece4e85c79db9ecad306cdd6a0b98957121224ce562",
+                "sha256:bdeb54d5af2a7a080a8c251d04d2d15e0f22c1560e617cc50b5197b7eeee3951",
+                "sha256:c038b0959e19a6436249b08d1f5e5a0e38a3711dfee49f700ab524841376f422",
+                "sha256:d3201a05bb2187bfacb1104c619fb7608ab101a1c588225e2da92c3ad9756fb4",
+                "sha256:d8516cc820674e0ddf5b6f4aded4bf5be67e9db9427ca6f0561d4dc10bb70cfd",
+                "sha256:f6205448741139023540b12a407da4e7d1075aaaf67dc4a348cb45baa777df42",
+                "sha256:fca83fe1fda35e8629d9527bda7216a4577bc21766a8cc9cd93bcad0e1514569"
             ],
-            "version": "==0.21.12"
+            "version": "==0.21.13"
         },
         "fasteners": {
             "hashes": [
