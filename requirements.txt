@@ -33,11 +33,11 @@ monotonic==1.5
 oauth2client==3.0.0
 pbr==5.4.3
 ply==3.8
-proto-google-cloud-datastore-v1==0.90.4
-proto-google-cloud-pubsub-v1[grpc]==0.15.4
-protobuf==3.10.0
-pyasn1-modules==0.2.7
-pyasn1==0.4.7
+proto-google-cloud-datastore-v1==0.90.4 ; extra == 'gcp'
+proto-google-cloud-pubsub-v1[grpc]==0.15.4 ; extra == 'gcp'
+protobuf==3.18.3
+pyasn1-modules==0.2.2
+pyasn1==0.4.4
 pydot==1.2.4
 pyparsing==2.4.2
 pytz==2018.4
